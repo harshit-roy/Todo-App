@@ -12,8 +12,11 @@
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/etToDoTitle"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:background="#B8621B"/>
 
     <EditText
         android:id="@+id/etToDoTitle"
@@ -22,7 +25,8 @@
         android:hint="Enter ToDo Title"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnAddToDo"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
     <Button
         android:id="@+id/btnAddToDo"
@@ -45,4 +49,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btnAddToDo" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
